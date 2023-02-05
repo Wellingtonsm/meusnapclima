@@ -104,8 +104,7 @@ body {
 }
 .currente-temperature__info-label{
     margin-top: 15px;
-    color: rgb(61, 65, 1);
-    font-size: 25px;
+    color: rgb(61, 65, 1);   
 }
 .currente-temperature__current-temperature{
     font-size: 30px;
@@ -141,12 +140,11 @@ body {
 }
 .temperature-details__label{
     color: #393919;
-    font-size: 25px;
 }
+
 .temperature-details__value, .sunset-sunrise__value {
     font-weight: 500;
-    margin-top: 7px;
-    font-size: 20px;
+    margin-top: 7px;    
 }
 
 /* Sun */
