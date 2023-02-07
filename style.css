@@ -26,8 +26,8 @@ body {
 
 /* Header*/
 
-.header {
-    padding: 0 30px;    
+.header {    
+    padding: 0 30px;       
 }
 
 .header__city-search-bar{
@@ -80,16 +80,18 @@ body {
     margin-top: 6px;
 }
 
-.currente-temperature{
+/*currente temperature */
+
+.currente-temperature{    
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .currente-temperature__weather-icon{
     width: 125px;
-    margin-top: 15px;
+    margin-top: 50px;
 }
 
 .currente-temperature__description:first-letter {
@@ -99,22 +101,23 @@ body {
 .currente-temperature__description{
     color: rgb(34, 1, 25);
     font-weight: 500;
-    font-size: 40px;
-    margin-top: 30px;    
+    font-size: 24px;
+    margin-top: 60px;    
 }
 .currente-temperature__info-label{
-    margin-top: 15px;
+    margin-top: 20px;
     color: rgb(61, 65, 1);   
 }
 .currente-temperature__current-temperature{
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;   
+    margin-top: 15px;
+    padding: 20px;
 }
 
 /* botton container */
 
-.bottom-container{
+.bottom-container{   
     background: #fff;
     position: absolute; /*colocar o elemento em uma posição fixa */
     bottom: 0;
@@ -125,7 +128,7 @@ body {
 }
 .temperature-details{
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .temperature-details__item{
     width: 100%;
@@ -144,14 +147,14 @@ body {
 
 .temperature-details__value, .sunset-sunrise__value {
     font-weight: 500;
-    margin-top: 7px;    
+    margin-top: 5px;    
 }
 
 /* Sun */
 
 .sunset-sunrise{
     display: flex;
-    margin: 30px auto;    
+    margin: 20px auto;  
 }
 .sunset-sunrise__item{
     width: 100%;
