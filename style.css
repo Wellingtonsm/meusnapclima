@@ -82,42 +82,44 @@ body {
 
 /*currente temperature */
 
-.currente-temperature{    
+.currente-temperature{       
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    padding: 20px;
 }
 
-.currente-temperature__weather-icon{
+.currente-temperature__weather-icon{    
     width: 125px;
-    margin-top: 50px;
+    margin-top: 15px;
+    padding: 15px;
 }
 
 .currente-temperature__description:first-letter {
     text-transform: uppercase;
 }
 
-.currente-temperature__description{
+.currente-temperature__description{    
     color: rgb(34, 1, 25);
     font-weight: 500;
     font-size: 24px;
-    margin-top: 60px;    
+    margin-top: 15px;    
 }
-.currente-temperature__info-label{
-    margin-top: 20px;
+.currente-temperature__info-label{    
+    margin-top: 10px;
     color: rgb(61, 65, 1);   
 }
-.currente-temperature__current-temperature{
+.currente-temperature__current-temperature{    
     font-size: 24px;
     font-weight: 500;   
-    margin-top: 15px;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 /* botton container */
 
-.bottom-container{   
+.bottom-container{      
     background: #fff;
     position: absolute; /*colocar o elemento em uma posição fixa */
     bottom: 0;
@@ -126,11 +128,11 @@ body {
     box-shadow:
     rgba(50, 50, 93, 0.25) 0px 2px 5px -1px rgba(0, 0, 0, 3) 0px 1px 3px -1px;;
 }
-.temperature-details{
+.temperature-details{    
     display: flex;
-    margin-top: 15px;
+    margin-top: 5px;
 }
-.temperature-details__item{
+.temperature-details__item{    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -138,23 +140,23 @@ body {
     border-right: 1px solid #393919;
 
 }
-.temperature-details__item:last-child{
+.temperature-details__item:last-child{    
     border: none;
 }
 .temperature-details__label{
     color: #393919;
 }
 
-.temperature-details__value, .sunset-sunrise__value {
+.temperature-details__value, .sunset-sunrise__value {    
     font-weight: 500;
-    margin-top: 5px;    
+    margin-top: 2px;    
 }
 
 /* Sun */
 
 .sunset-sunrise{
     display: flex;
-    margin: 20px auto;  
+    margin: 10px auto;  
 }
 .sunset-sunrise__item{
     width: 100%;
